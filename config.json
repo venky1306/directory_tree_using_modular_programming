@@ -1,0 +1,36 @@
+{
+    "structure": {
+        "id": 0,
+        "name": "Root",
+        "subfolders": [
+            {
+                "id": 1,
+                "name": "Folder1",
+                "subfolders": [
+                    {
+                        "id": 3,
+                        "name": "Folder5",
+                        "subfolders": []
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Folder2",
+                "subfolders": []
+            }
+        ]
+    },
+    "ids": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "names": [
+        "Root",
+        "Folder1",
+        "Folder2",
+        "Folder5"
+    ]
+}
