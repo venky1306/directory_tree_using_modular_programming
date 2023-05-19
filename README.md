@@ -56,13 +56,17 @@ To run the code
 }`
 
 ### Adding Folder
-<img width="345" alt="Screenshot 2023-05-18 at 11 43 12 PM" src="https://github.com/venky1306/directory_tree_using_modular_programming/assets/47674519/07a0d4b2-526c-4c9d-94ef-ef30a34d8abd">
+<img width="345" alt="Screenshot 2023-05-18 at 11 43 12 PM" src="https://github.com/venky1306/directory_tree_using_modular_programming/assets/47674519/ca10770b-1de7-40f9-a81b-594af780fe97">
+
 
 ### Remove Folder
-<img width="1121" alt="Screenshot 2023-05-18 at 11 45 51 PM" src="https://github.com/venky1306/directory_tree_using_modular_programming/assets/47674519/5902c315-9523-4b1e-bd8b-7861ae4875cf">
+<img width="1121" alt="Screenshot 2023-05-18 at 11 45 51 PM" src="https://github.com/venky1306/directory_tree_using_modular_programming/assets/47674519/ec607aac-ecf7-41ac-a9b2-8d550d4dccaa">
+
 
 ### Getting Path
-<img width="484" alt="Screenshot 2023-05-18 at 11 46 26 PM" src="https://github.com/venky1306/directory_tree_using_modular_programming/assets/47674519/80e79aa6-7083-4f2b-8937-eac229d06d8d">
+<img width="484" alt="Screenshot 2023-05-18 at 11 46 26 PM" src="https://github.com/venky1306/directory_tree_using_modular_programming/assets/47674519/b9a5ede2-b1fe-40b5-8b58-6e746bebac8a">
+
 
 ### Changing name of the folder
-<img width="1099" alt="Screenshot 2023-05-18 at 11 48 01 PM" src="https://github.com/venky1306/directory_tree_using_modular_programming/assets/47674519/5be728cc-2237-4d23-9d24-22beb48c50d3">
+<img width="1099" alt="Screenshot 2023-05-18 at 11 48 01 PM" src="https://github.com/venky1306/directory_tree_using_modular_programming/assets/47674519/86113e83-2429-40a3-b5d3-520669d93544">
+
