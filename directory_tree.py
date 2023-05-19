@@ -1,11 +1,13 @@
 import json
 
+# DirectoryTree class
 class DirectoryTree:
     def __init__(self):
         self.tree = None
         self.ids = []
         self.names = []
-
+    
+    # load json data
     def load_from_json(self, json_data):
         if isinstance(json_data, dict) and "structure" in json_data and "ids" in json_data and "names" in json_data:
             self.tree = json_data["structure"]
@@ -16,6 +18,7 @@ class DirectoryTree:
             self.ids = []
             self.names = []
 
+    # add folder to tree and update ids and names lists accordingly. Given parent_id and folder_name
     def add_folder(self, parent_id, folder_name):
         if self.tree is None:
             print("Directory tree is not loaded.")
@@ -38,6 +41,7 @@ class DirectoryTree:
         self.ids.append(new_id)
         self.names.append(folder_name)
 
+    # remove folder in tree given folder_id using helper function _find_parent_folder
     def remove_folder(self, folder_id):
         if self.tree is None:
             print("Directory tree is not loaded.")
@@ -60,6 +64,8 @@ class DirectoryTree:
         self.ids.remove(folder_id)
         self.names.remove(folder["name"])
 
+
+    # fetch path of folder given folder_id using helper function _find_parent_folder by finding parent folder and appending to path
     def fetch_path(self, folder_id):
         if self.tree is None:
             print("Directory tree is not loaded.")
@@ -82,6 +88,7 @@ class DirectoryTree:
         return "/".join(path)
 
 
+    # update folder name given folder_id and new_name using helper function _find_folder
     def update_folder_name(self, folder_id, new_name):
         if self.tree is None:
             print("Directory tree is not loaded.")
